@@ -1,19 +1,19 @@
 # dict_cleaner
-dict cleaner features:
-    recursively cut empty nested dicts
-    cut every nested dict with specified fields
+dict cleaner features:<br />
+    recursively cut empty nested dicts<br />
+    cut every nested dict with specified fields<br />
 
 usage:
-    dc = DictCleaner(['field1', 'field2', ...])
-    cleaned_dict = dc.clean_empty(mydict_to_be_cleaned)
+    dc = DictCleaner(['field1', 'field2', ...])<br />
+    cleaned_dict = dc.clean_empty(mydict_to_be_cleaned)<br />
     
-example
-{key1: stop_value,
- key2: normal_value,
- deprecated_key: value1,
- normal_key: value2}
-
+example<br />
+{key1: stop_value,<br />
+ key2: normal_value,<br />
+ deprecated_key: value1,<br />
+ normal_key: value2}<br />
+<br />
 ->
-
-{key2: normal_value,
-normal_key: value2}
+<br />
+{key2: normal_value,<br />
+normal_key: value2}<br />
