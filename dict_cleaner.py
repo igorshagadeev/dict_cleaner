@@ -1,5 +1,3 @@
-
-
 class DictCleaner(object):
     """
         dict cleaner features:
@@ -53,9 +51,6 @@ class DictCleaner(object):
 
 
 if __name__ == '__main__':
-
-    from collections import OrderedDict
-
 
     sample = {
         'bid': {
